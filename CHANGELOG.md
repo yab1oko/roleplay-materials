@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.1
+- Updated mod logo / icon
+
 ## 1.1
 - Crafting pipeline for forged iron: scrap → nugget (campfire / blast furnace) → ingot → plate
 - Plate craft uses a hammer (`#forge:tools/hammers`) and damages the tool instead of consuming it
