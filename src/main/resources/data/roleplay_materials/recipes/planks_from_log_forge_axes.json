@@ -1,0 +1,16 @@
+{
+  "type": "roleplay_materials:tool_damage_shapeless",
+  "tool": {
+    "tag": "forge:tools/axes"
+  },
+  "damage": 1,
+  "ingredients": [
+    {
+      "item": "roleplay_materials:wood"
+    }
+  ],
+  "result": {
+    "item": "roleplay_materials:plank",
+    "count": 2
+  }
+}

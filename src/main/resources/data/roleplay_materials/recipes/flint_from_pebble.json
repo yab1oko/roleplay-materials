@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "roleplay_materials:pebble"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint"
+  }
+}

@@ -1,0 +1,65 @@
+﻿{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "roleplay_materials:item/circuit",
+		"particle": "roleplay_materials:item/circuit"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 4],
+			"to": [9, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [1, 9, 5, 10], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 9], "texture": "#0"},
+				"south": {"uv": [9, 3, 13, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"down": {"uv": [4, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 0, 4],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 7]},
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#0"},
+				"east": {"uv": [8, 1, 14, 2], "texture": "#0"},
+				"south": {"uv": [5, 9, 6, 10], "texture": "#0"},
+				"west": {"uv": [8, 2, 14, 3], "texture": "#0"},
+				"up": {"uv": [8, 3, 9, 9], "texture": "#0"},
+				"down": {"uv": [0, 9, 1, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"firstperson_righthand": {
+			"translation": [2.25, 7.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.25, 7.75, 0]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.64063, 0.64063, 0.64063]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [1.25, 10, 0],
+			"scale": [1.54688, 1.54688, 1.54688]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0.5, 0, -9],
+			"scale": [1.26172, 1.26172, 1.26172]
+		}
+	}
+}

@@ -1,0 +1,48 @@
+﻿{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "roleplay_materials:item/motor",
+		"particle": "roleplay_materials:item/motor"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 5], "texture": "#0"},
+				"east": {"uv": [4, 0, 8, 5], "texture": "#0"},
+				"south": {"uv": [0, 5, 4, 10], "texture": "#0"},
+				"west": {"uv": [4, 5, 8, 10], "texture": "#0"},
+				"up": {"uv": [8, 0, 12, 4], "texture": "#0"},
+				"down": {"uv": [8, 4, 12, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, -1.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, -1.75]
+		},
+		"firstperson_righthand": {
+			"translation": [1, 6, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [1, 6, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 6.75, 0],
+			"scale": [1.54883, 1.54883, 1.54883]
+		},
+		"fixed": {
+			"translation": [0, 7.75, 0],
+			"scale": [1.52344, 1.52344, 1.52344]
+		}
+	}
+}

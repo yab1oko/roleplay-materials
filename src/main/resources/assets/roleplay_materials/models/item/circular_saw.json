@@ -1,0 +1,58 @@
+﻿{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "roleplay_materials:item/circular_saw",
+		"particle": "roleplay_materials:item/mech_saw"
+	},
+	"elements": [
+		{
+			"from": [3, 2, 6.99],
+			"to": [13, 12, 6.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 6.99]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"south": {"uv": [0, 5, 5, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#1"},
+				"up": {"uv": [0, 0, 5, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 5, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [120, 90, -120],
+			"translation": [0, 2.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-120, -90, -120],
+			"translation": [0, 2.25, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, 75, 16],
+			"translation": [2.25, 0, 2],
+			"scale": [0.81, 0.81, 0.81]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-30, 75, 16],
+			"translation": [2.25, 0, 2],
+			"scale": [0.81, 0.81, 0.81]
+		},
+		"ground": {
+			"rotation": [90, 0, 90],
+			"translation": [0, -3.25, 0],
+			"scale": [0.69531, 0.69531, 0.69531]
+		},
+		"gui": {
+			"rotation": [-180, 0, -135],
+			"translation": [1.25, 0.75, 0],
+			"scale": [1.04102, 1.04102, 1.04102]
+		},
+		"fixed": {
+			"rotation": [0, 0, 45],
+			"translation": [4, -4.75, 0],
+			"scale": [0.7832, 0.7832, 0.7832]
+		}
+	}
+}

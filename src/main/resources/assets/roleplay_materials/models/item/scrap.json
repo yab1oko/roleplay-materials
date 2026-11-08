@@ -1,0 +1,90 @@
+﻿{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "roleplay_materials:item/scrap",
+		"particle": "roleplay_materials:item/scrap"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 9],
+			"to": [11, 0.5, 15],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5, 0, 9]},
+			"faces": {
+				"north": {"uv": [11, 5, 14, 5.25], "texture": "#0"},
+				"east": {"uv": [10, 11, 13, 11.25], "texture": "#0"},
+				"south": {"uv": [0, 11.5, 3, 11.75], "texture": "#0"},
+				"west": {"uv": [11.5, 6, 14.5, 6.25], "texture": "#0"},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#0"},
+				"down": {"uv": [3, 3, 6, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 2.1, 1.6],
+			"to": [12, 2.6, 7.6],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [6, 2.1, 1.6]},
+			"faces": {
+				"north": {"uv": [11.5, 6.5, 14.5, 6.75], "texture": "#0"},
+				"east": {"uv": [11.5, 7, 14.5, 7.25], "texture": "#0"},
+				"south": {"uv": [11.5, 7.5, 14.5, 7.75], "texture": "#0"},
+				"west": {"uv": [10, 11.5, 13, 11.75], "texture": "#0"},
+				"up": {"uv": [0, 6, 3, 9], "texture": "#0"},
+				"down": {"uv": [6, 0, 9, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 3],
+			"to": [9, 2, 14],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7, 0, 3]},
+			"faces": {
+				"north": {"uv": [11, 4, 12, 5], "texture": "#0"},
+				"east": {"uv": [9, 9, 14.5, 10], "texture": "#0"},
+				"south": {"uv": [5, 11, 6, 12], "texture": "#0"},
+				"west": {"uv": [0, 10, 5.5, 11], "texture": "#0"},
+				"up": {"uv": [10, 0, 11, 5.5], "texture": "#0"},
+				"down": {"uv": [9, 10, 10, 15.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.29688, 0.29688, 0.29688]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.29688, 0.29688, 0.29688]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, -135, -180],
+			"translation": [0, 7.5, 0],
+			"scale": [0.61523, 0.61523, 0.61523]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -135, -180],
+			"translation": [0, 7.5, 0],
+			"scale": [0.61719, 0.61719, 0.61719]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0],
+			"scale": [0.70508, 0.70508, 0.70508]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0.25, 5.25, 0],
+			"scale": [0.86914, 0.86914, 0.86914]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -6.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "scrap_pile",
+			"origin": [2, 0, 6],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

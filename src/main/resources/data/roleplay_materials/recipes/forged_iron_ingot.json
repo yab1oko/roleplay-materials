@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "roleplay_materials:forged_iron_nugget"
+    }
+  },
+  "result": {
+    "item": "roleplay_materials:forged_iron_ingot"
+  }
+}

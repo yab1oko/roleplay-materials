@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PNP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "roleplay_materials:forged_iron_plate"
+    },
+    "N": {
+      "item": "roleplay_materials:forged_iron_nugget"
+    }
+  },
+  "result": {
+    "item": "roleplay_materials:circular_saw"
+  }
+}

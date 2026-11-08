@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  P",
+    "  P",
+    " SP"
+  ],
+  "key": {
+    "P": {
+      "item": "roleplay_materials:forged_iron_plate"
+    },
+    "S": {
+      "item": "roleplay_materials:scrap"
+    }
+  },
+  "result": {
+    "item": "roleplay_materials:machete_part"
+  }
+}

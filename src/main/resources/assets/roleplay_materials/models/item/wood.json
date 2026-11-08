@@ -1,0 +1,58 @@
+﻿{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "roleplay_materials:item/oak_log",
+		"1": "roleplay_materials:item/oak_log_top",
+		"particle": "roleplay_materials:item/oak_log"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 6],
+			"to": [15, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [5, 5, 11, 11], "texture": "#1"},
+				"south": {"uv": [11, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [5, 5, 11, 11], "texture": "#1"},
+				"up": {"uv": [9, 0, 14, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5, 0, 10, 16], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 75, -180],
+			"translation": [2.5, 9, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 75, -180],
+			"translation": [2.5, 9, 0]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.74414, 0.74414, 0.74414]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0.5, 5, 0]
+		},
+		"head": {
+			"translation": [0, 5.75, 0]
+		},
+		"fixed": {
+			"rotation": [90, -45, 0],
+			"translation": [0, 0, 7.25]
+		}
+	}
+}

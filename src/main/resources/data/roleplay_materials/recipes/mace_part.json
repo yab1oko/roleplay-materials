@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "PNP",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "roleplay_materials:scrap"
+    },
+    "P": {
+      "item": "roleplay_materials:forged_iron_plate"
+    },
+    "N": {
+      "item": "roleplay_materials:nailbox"
+    }
+  },
+  "result": {
+    "item": "roleplay_materials:mace_part"
+  }
+}

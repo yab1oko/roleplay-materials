@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "PCP",
+    "PTP"
+  ],
+  "key": {
+    "P": {
+      "item": "roleplay_materials:forged_iron_plate"
+    },
+    "T": {
+      "item": "roleplay_materials:tape"
+    },
+    "C": {
+      "item": "roleplay_materials:circuit"
+    }
+  },
+  "result": {
+    "item": "roleplay_materials:motor"
+  }
+}

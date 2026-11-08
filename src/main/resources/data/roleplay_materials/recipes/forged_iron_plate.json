@@ -1,0 +1,15 @@
+{
+  "type": "roleplay_materials:tool_damage_shapeless",
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "damage": 1,
+  "ingredients": [
+    {
+      "item": "roleplay_materials:forged_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "roleplay_materials:forged_iron_plate"
+  }
+}

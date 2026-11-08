@@ -1,0 +1,53 @@
+﻿{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "roleplay_materials:item/metal_pipe",
+		"particle": "roleplay_materials:item/metal_pipe"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7],
+			"to": [16, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 8, 2, 10], "texture": "#0"},
+				"south": {"uv": [0, 2, 16, 4], "texture": "#0"},
+				"west": {"uv": [2, 8, 4, 10], "texture": "#0"},
+				"up": {"uv": [0, 4, 16, 6], "texture": "#0"},
+				"down": {"uv": [0, 6, 16, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 75, -180],
+			"translation": [2.5, 9, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 75, -180],
+			"translation": [2.5, 9, 0]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0],
+			"scale": [0.41016, 0.41016, 0.41016]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [-0.25, 5.75, 0]
+		},
+		"fixed": {
+			"rotation": [90, -45, 0],
+			"translation": [0, 0, 7.25]
+		}
+	}
+}

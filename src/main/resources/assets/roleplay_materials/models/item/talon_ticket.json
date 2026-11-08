@@ -1,0 +1,86 @@
+﻿{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"0": "roleplay_materials:item/talon_ticket",
+		"particle": "roleplay_materials:item/talon_ticket"
+	},
+	"elements": [
+		{
+			"from": [8, 2, 6],
+			"to": [8, 6, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"west": {"uv": [3, 8, 13, 16], "texture": "#0"},
+				"up": {"uv": [0, 16, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 2, 4],
+			"to": [8, 6, 6],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 4, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"east": {"uv": [12, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"west": {"uv": [0, 8, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 16, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 2, 10],
+			"to": [8, 6, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 4, 10]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"west": {"uv": [12, 8, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 16, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.5, 2, -2],
+			"scale": [0.70313, 0.70313, 0.70313]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.5, 2, -2],
+			"scale": [0.76563, 0.76563, 0.76563]
+		},
+		"firstperson_righthand": {
+			"rotation": [64, 28.13, -52.36],
+			"translation": [5, 5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [64, 28.13, -52.36],
+			"translation": [5, 5, 0]
+		},
+		"ground": {
+			"rotation": [2.05, -25.82, -88.69],
+			"translation": [3, -2.5, 1.5]
+		},
+		"gui": {
+			"rotation": [-90, 45, 90],
+			"translation": [-4, 4.75, 0],
+			"scale": [1.52734, 1.52734, 1.52734]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [3.5, 3.75, -7]
+		},
+		"fixed": {
+			"rotation": [91.8, -65.47, 91.65],
+			"translation": [-2.25, 4.75, 0],
+			"scale": [1.4375, 1.4375, 1.4375]
+		}
+	}
+}
